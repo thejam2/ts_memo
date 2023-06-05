@@ -40,3 +40,13 @@ const playerMaker = (name: string): Player => ({name})
 //readonly 있으면 수정 안됨
 type Player = { readonly name:string, age?:number }
 ```
+
+### void
+void는 값을 반환하지 않는 함수의 반환 값
+
+### unknown
+unknown타입은 모든 값.
+
+any타입과 비슷하지만 any보다 unknown이 더 안전.
+
+이유는 unknown값으로 작업을 수행하는 것은 합법적이지 않기 때문입니다.
