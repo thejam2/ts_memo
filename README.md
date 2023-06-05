@@ -19,3 +19,16 @@ null: 선언O 할당X
 type Player = { name: string, age?:number }
 const player : Player = { name: "nico" }
 ```
+
+함수에서
+```
+type Player = { name: string, age?:number } 
+```
+일반함수
+```
+function playerMaker1(name:string) : Player { //함수명(파라미터명:타입명) : 타입 return { name } } 
+```
+화살표함수
+```
+const playerMaker = (name: string): Player => ({name})
+```
