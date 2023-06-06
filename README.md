@@ -56,3 +56,14 @@ any타입과 비슷하지만 any보다 unknown이 더 안전.
 
 이는 함수가 예외를 throw하거나 프로그램 실행을 종료함을 의미.
 
+### ts함수 오버로딩
+Function(=Method) Overloading은 직접 작성하기보다 외부 라이브러리에 자주 보이는 형태로, 하나의 함수가 복수의 Call Signature를 가질 때 발생한다.
+
+```
+type Config = { path: string, state: number }
+type Push = { (config: Config): void, (config: string): void }
+const push: Push = (config) => { 
+  if (typeof config === "string") console.log(config);
+  else console.log(config.path);
+ }
+```
