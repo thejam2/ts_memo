@@ -92,3 +92,5 @@ const add2: Add2 = (a, b, c?: number) => {
   return a + b;
 }
 ```
+
+### polymorphism(다형성)
