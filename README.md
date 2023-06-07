@@ -79,3 +79,16 @@ const add: Add = (a, b) => {
   return a + b; 
 }
 ```
+
+매개변수의 수가 다른 경우 예외 처리 이와 같은 함수는 거의 없지만 외부 라이브러리에서 활용될 수 있다
+```
+type Add2 = { 
+  (a: number, b: number): number,
+  (a: number, b: number, c: number): number 
+}
+const add2: Add2 = (a, b, c?: number) => { 
+  //옵션인 c는 따로 타입 설정
+  if (c) return a + b + c;
+  return a + b;
+}
+```
