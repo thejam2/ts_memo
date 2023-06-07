@@ -67,3 +67,15 @@ const push: Push = (config) => {
   else console.log(config.path);
  }
 ```
+
+매개변수의 데이터 타입이 다른 경우 예외 처리
+```
+type Add = { 
+  (a: number, b: number): number, 
+  (a: number, b: string): number 
+}
+const add: Add = (a, b) => {
+  if (typeof b === "string") return a;
+  return a + b; 
+}
+```
