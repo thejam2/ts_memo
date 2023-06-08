@@ -94,3 +94,18 @@ const add2: Add2 = (a, b, c?: number) => {
 ```
 
 ### polymorphism(다형성)
+concrete type -> number, boolean, void 등 지금까지 배운 타입
+
+generic type -> 타입의 placeholder
+```
+type SuperPrint = { 
+	<작명>(arr: 작명[]): 작명 	//〈T〉(arr: T[]): T 이런식
+}
+
+const superPrint: SuperPrint = (arr) => {
+    arr.forEach(i => console.log(i))
+}
+const superReturn: SuperReturn = (arr) => arr[0]
+
+superPrint([1, 2, false, true])
+```
