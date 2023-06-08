@@ -109,3 +109,10 @@ const superReturn: SuperReturn = (arr) => arr[0]
 
 superPrint([1, 2, false, true])
 ```
+
+### 추상(abstract) 클래스
+추상 클래스는 오직 다른 클래스가 상속받을 수 있는 클래스이다.
+
+하지만 직접 새로운 인스턴스를 만들 수는 없다.
+
+추상 메서드는 추상 클래스를 상속받는 클래스들이 반드시 구현(implement)해야하는 메서드이다.
