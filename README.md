@@ -6,6 +6,10 @@ Typescript 타입 안정성 → 버그 감소
 ### 설치
 `npm i -D typescript`
 
+package.json 초기화
+
+`npm init -y`
+
 ### 기본
 `let a :string = "x" //변수명 옆 :타입명`
 
