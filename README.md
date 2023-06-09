@@ -140,3 +140,5 @@ interface b extends a{}
 type a = {}
 type b = a & {}
 ```
+
+### tsconfig.json
