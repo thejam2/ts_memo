@@ -3,6 +3,9 @@ ts_memo
 
 Typescript 타입 안정성 → 버그 감소
 
+### 설치
+`npm i -D typescript`
+
 ### 기본
 `let a :string = "x" //변수명 옆 :타입명`
 
