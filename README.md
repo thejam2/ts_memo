@@ -141,7 +141,7 @@ type a = {}
 type b = a & {}
 ```
 
-### tsconfig.json
+## tsconfig.json
 디렉터리에 tsconfig.json 파일이 있으면 해당 디렉터리가 TypeScript 프로젝트의 루트임을 나타냅니다. 
 
 tsconfig.json 파일은 프로젝트를 컴파일하는 데 필요한 루트 파일과 컴파일러 옵션을 지정합니다.
