@@ -154,3 +154,10 @@ https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#handbook-content
 코드가 이전 환경에 배포된 경우 더 낮은 target을 설정하거나 최신 환경에서 코드 실행이 보장되는 경우 더 높은 target을 설정하도록 선택할 수 있습니다.
 
 ex) 화살표 함수() => this는 ES5 이하이면 함수 표현식으로 바뀝니다.
+
+### lib
+타입스크립트에게 어떤 API를 사용하고 어떤 환경에서 코드를 실행하는 지를 지정할 수 있습니다. (target 런타임 환경이 무엇인지를 지정합니다.)
+
+프로그램이 브라우저에서 실행되면 lib에 "DOM" 유형 정의를 할 수 있습니다.
+
+DOM: window, document 등	  ex) "lib": ["ES6","DOM"]
