@@ -166,3 +166,10 @@ DOM: window, document 등	  ex) "lib": ["ES6","DOM"]
 모든 엄격한 타입 검사 옵션을 활성화합니다.
 
 strict 플래그는 프로그램 정확성을 더 강력하게 보장하는 광범위한 타입 검사 동작을 가능하게 합니다.
+
+### @ts-check
+JavaScript 파일에서 오류를 활성화하려면 // @ts-check를 .js 파일의 첫 번째 줄에 추가하여 TypeScript가 오류를 발생시키도록 합니다. TypeScript는 여러 오류를 제공할 수 있습니다.
+
+이러한 오류를 무시하고 싶다면 // @ts-ignore 또는 // @ts-expect-error를 추가하여 특정 줄의 오류를 무시할 수 있습니다.
+
+https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html#ts-check
