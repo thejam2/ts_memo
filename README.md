@@ -173,3 +173,8 @@ JavaScript 파일에서 오류를 활성화하려면 // @ts-check를 .js 파일�
 이러한 오류를 무시하고 싶다면 // @ts-ignore 또는 // @ts-expect-error를 추가하여 특정 줄의 오류를 무시할 수 있습니다.
 
 https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html#ts-check
+
+### JSDoc Reference
+JSDoc 주석을 사용하여 JavaScript 파일에 type 정보를 제공할 수 있습니다. (자바스크립트 파일에서 타입 정보를 제공할 수 있습니다.)
+
+https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html
