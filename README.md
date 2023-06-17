@@ -178,3 +178,18 @@ https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html#ts-check
 JSDoc 주석을 사용하여 JavaScript 파일에 type 정보를 제공할 수 있습니다. (자바스크립트 파일에서 타입 정보를 제공할 수 있습니다.)
 
 https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html
+
+### @param, @returns
+```
+/**
+* @param {string} p1 - A string param.
+* @param {string=} p2 - An optional param (Google Closure syntax)
+* @param {string} [p3] - Another optional param (JSDoc syntax).
+* @param {string} [p4="test"] - An optional param with a default value
+* @returns {string} This is the result
+*/
+function stringsStringStrings(p1, p2, p3, p4) {
+// 코드...
+}
+```
+https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html#param-and-returns
