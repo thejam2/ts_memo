@@ -193,3 +193,8 @@ function stringsStringStrings(p1, p2, p3, p4) {
 }
 ```
 https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html#param-and-returns
+
+### ts-node
+ts-node는 Node.js용 TypeScript 실행 엔진 및 REPL입니다.
+
+JIT는 TypeScript를 JavaScript로 변환하므로 사전 컴파일 없이 Node.js에서 TypeScript를 직접 실행할 수 있습니다.
